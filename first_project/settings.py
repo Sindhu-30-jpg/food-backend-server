@@ -134,4 +134,4 @@ MAILERS = {
     },
 }
 
-CORS_ALLOWED_ORIGINS=['http://localhost:5173/','.vercel.app/']
+CORS_ALLOWED_ORIGINS=['http://localhost:5173/','https://recipes-chi-one.vercel.app/']
