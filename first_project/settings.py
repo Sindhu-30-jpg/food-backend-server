@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-!wagb7)sn^%a8xqon!okj@_q-uxi)zx72#zob0h^ys%968-p9#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.onrender.com']
+ALLOWED_HOSTS = ['.onrender.com','localhost']
 
 
 # Application definition
@@ -134,4 +134,4 @@ MAILERS = {
     },
 }
 
-CORS_ALLOWED_ORIGINS=['http://localhost:5173/']
+CORS_ALLOWED_ORIGINS=['http://localhost:5173/','.vercel.app/']
